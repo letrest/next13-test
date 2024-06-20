@@ -1,16 +1,27 @@
 {
-  "name": "next13-test",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "name": "next13-test",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "next": "13.5.6",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.6"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^7.12.2",
+    "@edgio/core": "^7.12.2",
+    "@edgio/devtools": "^7.12.2",
+    "@edgio/next": "^7.12.2",
+    "@edgio/prefetch": "^7.12.2",
+    "@edgio/react": "^7.12.2"
   }
 }

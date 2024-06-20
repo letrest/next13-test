@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+      <Image src="https://uat-static-assets.thriveworks.com/thriveworks/providers/about/89421c91-a83a-4307-9bf5-d50387fc2037.jpg" width={200} height={200} quality={75} alt="another external jpg in next image component"/>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
